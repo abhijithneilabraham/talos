@@ -188,7 +188,7 @@ def fetch_latest_file(self):
         try:
             results_data = pd.read_csv(latest_filepath)
         except Exception as e:
-            print('File empty..waiting...')
+
             return []
 
         return results_data
